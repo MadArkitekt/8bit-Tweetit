@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>34C8AE67-9FAE-4365-8C82-9DA8FB5D4C3B</string>
+	<key>IDESourceControlProjectName</key>
+	<string>8bitStatus</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>07FFA0A4-1421-4992-967C-FD8C4B05AF32</key>
+		<string>https://github.com/nst/STTwitter.git</string>
+		<key>D5C42F90-67C7-457C-B36E-BDFF73F00312</key>
+		<string>https://github.com/MadArkitekt/Iron_Yard_iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>8bitStat/8bitStatus/8bitStatus.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>07FFA0A4-1421-4992-967C-FD8C4B05AF32</key>
+		<string>../../../../../STTwitter</string>
+		<key>D5C42F90-67C7-457C-B36E-BDFF73F00312</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/MadArkitekt/Iron_Yard_iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D5C42F90-67C7-457C-B36E-BDFF73F00312</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D5C42F90-67C7-457C-B36E-BDFF73F00312</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Iron_Yard_iOS</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>07FFA0A4-1421-4992-967C-FD8C4B05AF32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>STTwitter</string>
+		</dict>
+	</array>
+</dict>
+</plist>

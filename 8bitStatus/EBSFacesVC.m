@@ -17,19 +17,17 @@
     UIImageView *squareSelect;
     UIView *facesView;
 }
+/*==========================================*/
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
+    if (self)
+    {
         self.view.backgroundColor = [UIColor whiteColor];
-        self.navigationController.navigationBarHidden = YES;
-            
-            
-           
-        }
+    }
     return self;
 }
-
+/*==========================================*/
 - (void)viewWillLayoutSubviews
 {
 
@@ -68,45 +66,44 @@
         }
     }
 
-    UIButton *forwardArrow = [[UIButton alloc] initWithFrame:CGRectMake(165, 510, 24, 40)];
+    UIButton *forwardArrow = [[UIButton alloc] initWithFrame:CGRectMake(172.5, 510, 24, 40)];
     [forwardArrow setImage:[UIImage imageNamed:@"arrow"] forState:UIControlStateNormal];
     [forwardArrow addTarget:self action:@selector(nextPage) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:forwardArrow];
     
-    UIButton *reverseArrow = [[UIButton alloc] initWithFrame:CGRectMake(135, 510, 24, 40)];
+    UIButton *reverseArrow = [[UIButton alloc] initWithFrame:CGRectMake(122.5, 510, 24, 40)];
     [reverseArrow setImage:[UIImage imageNamed:@"arrow"] forState:UIControlStateNormal];
     reverseArrow.transform = CGAffineTransformMakeRotation(M_PI);
     [reverseArrow addTarget:self action:@selector(previousPage) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:reverseArrow];
     
 }
-
-
-
+/*==========================================*/
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
-
+/*==========================================*/
 - (void)moveSelector:(UIButton *)sender
 {
-
     [EBSData mainData].chosenFace = sender.titleLabel.text;
     
     NSLog(@"%@",[EBSData mainData].chosenFace);
 
     [squareSelect setFrame:CGRectMake(sender.frame.origin.x - 8, sender.frame.origin.y - 8, sender.frame.size.width + 16, sender.frame.size.height + 16)];
-
 }
-
+/*==========================================*/
 -(void)nextPage
 {
     [self.navigationController pushViewController:[[EBSPostVC alloc]initWithNibName:nil bundle:nil] animated:YES];
 }
-
+/*==========================================*/
 - (void)previousPage
 {
     [self.navigationController popViewControllerAnimated:YES];
 }
+/*==========================================*/
+- (BOOL)prefersStatusBarHidden {return YES;};
+/*==========================================*/
+
 @end

@@ -5,48 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>34C8AE67-9FAE-4365-8C82-9DA8FB5D4C3B</string>
+	<string>1BE98C05-019B-405C-B404-ADBE5858BAE2</string>
 	<key>IDESourceControlProjectName</key>
 	<string>8bitStatus</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>07FFA0A4-1421-4992-967C-FD8C4B05AF32</key>
-		<string>https://github.com/nst/STTwitter.git</string>
-		<key>D5C42F90-67C7-457C-B36E-BDFF73F00312</key>
-		<string>https://github.com/MadArkitekt/Iron_Yard_iOS.git</string>
+		<key>26B80329-BED6-4F7C-B049-001FEEDF5C5A</key>
+		<string>https://github.com/MadArkitekt/8bitStatus.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>8bitStat/8bitStatus/8bitStatus.xcodeproj/project.xcworkspace</string>
+	<string>8bitStatus.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>07FFA0A4-1421-4992-967C-FD8C4B05AF32</key>
-		<string>../../../../../STTwitter</string>
-		<key>D5C42F90-67C7-457C-B36E-BDFF73F00312</key>
-		<string>../../../..</string>
+		<key>26B80329-BED6-4F7C-B049-001FEEDF5C5A</key>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/MadArkitekt/Iron_Yard_iOS.git</string>
+	<string>https://github.com/MadArkitekt/8bitStatus.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>D5C42F90-67C7-457C-B36E-BDFF73F00312</string>
+	<string>26B80329-BED6-4F7C-B049-001FEEDF5C5A</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>D5C42F90-67C7-457C-B36E-BDFF73F00312</string>
+			<string>26B80329-BED6-4F7C-B049-001FEEDF5C5A</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Iron_Yard_iOS</string>
-		</dict>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>07FFA0A4-1421-4992-967C-FD8C4B05AF32</string>
-			<key>IDESourceControlWCCName</key>
-			<string>STTwitter</string>
+			<string>8bitStatus</string>
 		</dict>
 	</array>
 </dict>

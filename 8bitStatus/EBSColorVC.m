@@ -7,7 +7,7 @@
 //
 
 #import "EBSColorVC.h"
-
+/*==========================================*/
 @interface EBSColorVC ()
 
 @end
@@ -18,27 +18,27 @@
     UIView *colorsView;
     NSArray *colors;
 }
+/*==========================================*/
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
+    if (self)
+    {
         self.view.backgroundColor = [UIColor whiteColor];
     }
     return self;
 }
-
+/*==========================================*/
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 
-    self.navigationController.navigationBarHidden = YES;
     
    colorsView = [[UIView alloc] initWithFrame:self.view.frame];
     
     colorsView.backgroundColor = [UIColor whiteColor];
     
     [self.view addSubview:colorsView];
-    
     
     squareSelect = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"squares"]];
     [squareSelect setFrame:CGRectMake(57, 138, 64, 64)];
@@ -62,30 +62,37 @@
             [button setTag:index];
             [button addTarget:self action:@selector(moveSelector:) forControlEvents:UIControlEventTouchUpInside];
             [colorsView addSubview:button];
-            
         }
     }
-    UIButton *forwardArrow = [[UIButton alloc] initWithFrame:CGRectMake(155, 510, 24, 40)];
+    UIButton *forwardArrow = [[UIButton alloc] initWithFrame:CGRectMake(172.5, 510, 24, 40)];
     [forwardArrow setImage:[UIImage imageNamed:@"arrow"] forState:UIControlStateNormal];
     [forwardArrow addTarget:self action:@selector(nextPage) forControlEvents:UIControlEventTouchUpInside];
     [colorsView addSubview:forwardArrow];
-
 }
-
-- (void)didReceiveMemoryWarning
+/*==========================================*/
+- (void)viewWillLayoutSubviews
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    self.navigationController.navigationBarHidden = YES;
 }
+/*==========================================*/
 - (void)moveSelector:(UIButton *)sender
 {
     [[EBSData mainData] setChosenColor:sender.tag];
     [squareSelect setFrame:CGRectMake(sender.frame.origin.x - 8, sender.frame.origin.y - 8, sender.frame.size.width + 16, sender.frame.size.height + 16)];
     NSLog(@"Selector Position: %f",squareSelect.frame.origin.x);
 }
+/*==========================================*/
 - (void)nextPage
 {
     [self.navigationController pushViewController:[[EBSFacesVC alloc] initWithNibName:nil bundle:nil] animated:YES];
 }
+/*==========================================*/
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+}
+/*==========================================*/
+- (BOOL)prefersStatusBarHidden {return YES;};
+/*==========================================*/
 
 @end

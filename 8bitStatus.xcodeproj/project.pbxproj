@@ -141,8 +141,6 @@
 		0DE7B1BE192CDA210056DEF3 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DE7B1BD192CDA210056DEF3 /* Accounts.framework */; };
 		0DE7B205192CF4960056DEF3 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE7B204192CF4960056DEF3 /* arrow.png */; };
 		0DE7B223192D43C50056DEF3 /* check.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE7B21E192D43C50056DEF3 /* check.png */; };
-		0DE7B224192D43C50056DEF3 /* fbgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE7B21F192D43C50056DEF3 /* fbgray.png */; };
-		0DE7B225192D43C50056DEF3 /* fbblu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE7B220192D43C50056DEF3 /* fbblu.png */; };
 		0DE7B226192D43C50056DEF3 /* twtgray.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE7B221192D43C50056DEF3 /* twtgray.png */; };
 		0DE7B227192D43C50056DEF3 /* twtblu.png in Resources */ = {isa = PBXBuildFile; fileRef = 0DE7B222192D43C50056DEF3 /* twtblu.png */; };
 /* End PBXBuildFile section */
@@ -315,8 +313,6 @@
 		0DE7B1BD192CDA210056DEF3 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		0DE7B204192CF4960056DEF3 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = 8bitStatus/arrow.png; sourceTree = "<group>"; };
 		0DE7B21E192D43C50056DEF3 /* check.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = check.png; sourceTree = "<group>"; };
-		0DE7B21F192D43C50056DEF3 /* fbgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbgray.png; sourceTree = "<group>"; };
-		0DE7B220192D43C50056DEF3 /* fbblu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fbblu.png; sourceTree = "<group>"; };
 		0DE7B221192D43C50056DEF3 /* twtgray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twtgray.png; sourceTree = "<group>"; };
 		0DE7B222192D43C50056DEF3 /* twtblu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twtblu.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -348,6 +344,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D01AAD819628EBE00E9E9EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				0DE7B21E192D43C50056DEF3 /* check.png */,
+				0DE7B221192D43C50056DEF3 /* twtgray.png */,
+				0DE7B204192CF4960056DEF3 /* arrow.png */,
+				0DE7B179192CD93F0056DEF3 /* squares.png */,
+				0DE7B222192D43C50056DEF3 /* twtblu.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 		0D1F97AE192E974500D8FD82 /* STTwitter */ = {
 			isa = PBXGroup;
 			children = (
@@ -558,13 +566,7 @@
 				0DA9118819622A1300D4898D /* peachSmilies */,
 				0DA9117519622A0800D4898D /* orangeSmilies */,
 				0DA91162196229FC00D4898D /* litegreenSmilies */,
-				0DE7B21E192D43C50056DEF3 /* check.png */,
-				0DE7B21F192D43C50056DEF3 /* fbgray.png */,
-				0DE7B220192D43C50056DEF3 /* fbblu.png */,
-				0DE7B221192D43C50056DEF3 /* twtgray.png */,
-				0DE7B204192CF4960056DEF3 /* arrow.png */,
-				0DE7B179192CD93F0056DEF3 /* squares.png */,
-				0DE7B222192D43C50056DEF3 /* twtblu.png */,
+				0D01AAD819628EBE00E9E9EA /* Assets */,
 				0DAF0720192C231100DDC459 /* 8bitStatus */,
 				0DAF0739192C231100DDC459 /* 8bitStatusTests */,
 				0DAF0719192C231100DDC459 /* Frameworks */,
@@ -803,7 +805,6 @@
 				0DA911BB19622A2A00D4898D /* 3purpleFace.png in Resources */,
 				0DA9118419622A0800D4898D /* 5orangeFace.png in Resources */,
 				0D9DD85E192E9D0900DCF456 /* 5yellowfacelg.png in Resources */,
-				0DE7B224192D43C50056DEF3 /* fbgray.png in Resources */,
 				0DAF0725192C231100DDC459 /* InfoPlist.strings in Resources */,
 				0DA91172196229FC00D4898D /* 6litegreenFace.png in Resources */,
 				0DA9117F19622A0800D4898D /* 0orangeFace.png in Resources */,
@@ -895,7 +896,6 @@
 				0DE7B15F192CD5430056DEF3 /* 2yellowface.png in Resources */,
 				0DE7B15D192CD5430056DEF3 /* 0yellowface.png in Resources */,
 				0DA911B919622A2A00D4898D /* 1purpleFace.png in Resources */,
-				0DE7B225192D43C50056DEF3 /* fbblu.png in Resources */,
 				0DA91173196229FC00D4898D /* 7litegreenFace.png in Resources */,
 				0DA911A919622A1E00D4898D /* 4pinkFace.png in Resources */,
 				0D9DD86A192E9D0900DCF456 /* 8redface.png in Resources */,

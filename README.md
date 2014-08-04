@@ -1,5 +1,5 @@
 <h1>8-bit Tweet<em>it</em></h1>
-<img src="https://raw.githubusercontent.com/MadArkitekt/8bit-Tweetit/master/8bitStatus/Images.xcassets/AppIcon.appiconset/Icon-60@2x.png">
+<img src="https://raw.githubusercontent.com/MadArkitekt/8bit-Tweetit/master/8bit2.png">
 <hr>
 <h3>Tweet using *"The O.G. of Emoji"* in all of their 8-bit glory!<h3>
 <p>

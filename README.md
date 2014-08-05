@@ -13,6 +13,6 @@
 -Each grid of 9 items is built by using fast enumeration for loops to iterate through arrays of images.
 -Current selection is displayed by a light-gray marker surrounding the chosen item
 -Selections are encapsulated in a singleton property. Said singleton also houses the switch statement containing all arrays of faces.
-* I've found singleton properties superior to the delgate pattern, but then again, have more experience implementing singletons than delegates, but am building smaller projects to implement the delegate pattern. 
+* I've found singleton properties superior to the delgate pattern, but then again, I have more experience implementing singletons than delegates, but am building smaller projects to implement the delegate pattern. 
 * Currently building apps as data management practice and gesture recognition
 * I'm building another branch to implement a delegate pattern and test if there's a statistically significant change in view transition speed

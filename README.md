@@ -6,7 +6,7 @@
 -Simply select you favorite color amongst the group, the face corresponding to your mood, and then you'll reach screen below whereupon you can Tweet<em>it</em>, or not. (see <a href="http://edsalter.co"> my portfolio</a> for more screenshots)</p>
 (aaaand, another awesomely large screenshot)
 <img src="https://raw.githubusercontent.com/MadArkitekt/8bit-Tweetit/master/8bit2.png" width=195.25 height=375>
-(the face seems quite surprised... at it's largeness... ANYWAYS)
+(the face seems quite surprised)
 <hr>
 <h3>Construction and UI Elements</h3>
 <p>

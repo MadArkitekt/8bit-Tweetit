@@ -1,6 +1,6 @@
-<h1><center>8-bit Tweet<em>it</em></center></h1>
+<h1 style="text-align:center;">8-bit Tweet<em>it</em></center></h1>
 [![endorse](https://api.coderwall.com/madarkitekt/endorsecount.png)](https://coderwall.com/madarkitekt)
-<img src="https://raw.githubusercontent.com/MadArkitekt/8bit-Tweetit/master/8bitStatus/Images.xcassets/AppIcon.appiconset/Icon-60@2x.png">
+<img style="text-align:center;" src="https://raw.githubusercontent.com/MadArkitekt/8bit-Tweetit/master/8bitStatus/Images.xcassets/AppIcon.appiconset/Icon-60@2x.png">
 <hr>
 <h3>Tweet using *"The O.G. of Emoji"* in all of their 8-bit glory!<h3>
 <p>

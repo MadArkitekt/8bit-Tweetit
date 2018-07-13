@@ -108,7 +108,6 @@
 		0DAF0727192C231100DDC459 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF0726192C231100DDC459 /* main.m */; };
 		0DAF072B192C231100DDC459 /* EBSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAF072A192C231100DDC459 /* EBSAppDelegate.m */; };
 		0DAF072D192C231100DDC459 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF072C192C231100DDC459 /* Images.xcassets */; };
-		0DAF0734192C231100DDC459 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAF0733192C231100DDC459 /* XCTest.framework */; };
 		0DAF0735192C231100DDC459 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAF071A192C231100DDC459 /* Foundation.framework */; };
 		0DAF0736192C231100DDC459 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DAF071E192C231100DDC459 /* UIKit.framework */; };
 		0DAF073E192C231100DDC459 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0DAF073C192C231100DDC459 /* InfoPlist.strings */; };
@@ -277,7 +276,6 @@
 		0DAF072A192C231100DDC459 /* EBSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EBSAppDelegate.m; sourceTree = "<group>"; };
 		0DAF072C192C231100DDC459 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0DAF0732192C231100DDC459 /* 8bitStatusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 8bitStatusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0DAF0733192C231100DDC459 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0DAF073B192C231100DDC459 /* 8bitStatusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "8bitStatusTests-Info.plist"; sourceTree = "<group>"; };
 		0DAF073D192C231100DDC459 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0DAF073F192C231100DDC459 /* _bitStatusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _bitStatusTests.m; sourceTree = "<group>"; };
@@ -335,7 +333,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DAF0734192C231100DDC459 /* XCTest.framework in Frameworks */,
 				0DAF0736192C231100DDC459 /* UIKit.framework in Frameworks */,
 				0DAF0735192C231100DDC459 /* Foundation.framework in Frameworks */,
 			);
@@ -593,7 +590,6 @@
 				0DAF071A192C231100DDC459 /* Foundation.framework */,
 				0DAF071C192C231100DDC459 /* CoreGraphics.framework */,
 				0DAF071E192C231100DDC459 /* UIKit.framework */,
-				0DAF0733192C231100DDC459 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1010,7 +1006,6 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1027,7 +1022,6 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -1073,7 +1067,6 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -1082,12 +1075,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "8bitStatus/8bitStatus-Prefix.pch";
 				INFOPLIST_FILE = "8bitStatus/8bitStatus-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.edsalter.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
@@ -1096,12 +1089,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "8bitStatus/8bitStatus-Prefix.pch";
 				INFOPLIST_FILE = "8bitStatus/8bitStatus-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "me.edsalter.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
